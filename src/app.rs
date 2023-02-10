@@ -105,7 +105,7 @@ pub fn app() -> Html {
     html! {
         <main>
             <div class="flexCol">
-            <button {onclick} class="button123">{"Click me!"}</button>
+            <button {onclick} class="button123">{"Gib mir ein Synonym!"}</button>
             <span class="subtitle">{b}</span>
             </div>
         </main>
