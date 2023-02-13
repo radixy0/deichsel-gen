@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html,
 body {
   height: 100%;
@@ -19,28 +18,16 @@ main {
   text-align: center;
 }
 
-.button123 {
+.button123{
   width: fit-content;
   margin-bottom: 20px;
 }
 
-.logo {
-  height: 20em;
-}
-
-.heart:after {
-  content: "❤️";
-  font-size: 1.75em;
-}
 
 .flexCol {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-items: center;
+  align-items:center;
+  justify-items:center;
 }
 
-h1 + .subtitle {
-  display: block;
-  margin-top: -1em;
-}
